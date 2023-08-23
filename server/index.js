@@ -1,5 +1,5 @@
 import bodyParser from "body-parser";
-import { Express } from "express";
+import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
@@ -8,6 +8,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
+import { log } from "console";
 
 
 //CONFIGURATION
@@ -39,3 +40,14 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
+
+
+//MONGOOSE setup
+
+const PORT = process.env.PORT || 7400;
+mongoose.connect(process.env.MONGO_URL, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    app.listen(PORT, () => console.log(`Server started on port ${PORT}`))
+}).catch((error) => console.log(`Couldn't connected to server: ${error}`));
