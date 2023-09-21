@@ -9,7 +9,7 @@ This project is a social media web application.
 
 This MERN stack app was made by using React - @mui - redux - MongoDB - Mongoose - ExpressJs - Bcrypt - JsonWebToken -  and many tools.
 
-App has many featuresDarkMode-Light mode  such as sharing photos, sharing text, adding and removing friends.
+App has many features such as Register, Login, Log out, DarkMode-Light mode   sharing photos, sharing text, adding and removing friends...
 
 To use the application, after entering your MongoDB information in the .env file in the server section
 
