@@ -1,5 +1,10 @@
 # WeShare
 
+<br>
+
+![App Screen](/client/public/assets/1.png) <br><br><br>
+![App Screen](/client/public/assets/2.png)<br><br>
+
 This project is a social media web application.
 
 This MERN stack app was made by using React - @mui - redux - MongoDB - Mongoose - ExpressJs - Bcrypt - JsonWebToken -  and many tools.
