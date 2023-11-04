@@ -1,6 +1,6 @@
 # WeShare
 
-## [Demo Link Here](https://6546cc81f4597f61354be644--thriving-taiyaki-abf66f.netlify.app/)
+## [Demo Link Here](https://weshareyunus.netlify.app/)
 
 Unfortunately because of the netlify problem if you click a friend's profile you will get an error
 
